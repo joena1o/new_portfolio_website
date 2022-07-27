@@ -208,6 +208,14 @@ body{
 	padding: 0px 40px;
 	letter-spacing: 5px;
 }
+.project_tit a{
+	text-decoration: none;
+	color: white;
+}
+.project_tit a:hover{
+	color: grey;
+}
+
 .project_tit p:nth-child(1){
 	color:rgb(79, 175, 179);
 	padding-top: 10px;
