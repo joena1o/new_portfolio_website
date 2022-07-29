@@ -20,6 +20,13 @@ var tabview3 = document.querySelector(".tab3");
 var tabview4 = document.querySelector(".tab4");
 
 
+var bodytext = document.querySelector(".body");
+var subject = document.querySelector(".subject");
+var name = document.querySelector(".name");
+
+var button = document.querySelector(".mail");
+
+
 
 close.addEventListener("click", function(){
 
@@ -192,6 +199,13 @@ function changeTab(index){
 
 
 window.onscroll = function(){fixNav()};
+
+
+function sendMail(){
+
+    window.open('mailto:jonathanhyefur@gmail.com?subject='+subject.value+'&body='+bodytext.value+'');
+
+}
 
 
 
